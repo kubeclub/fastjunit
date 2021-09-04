@@ -100,7 +100,7 @@ JUnit5 带来了一个强大的扩展模型。扩展开发人员可以使用这�
     <tr>
       <td align="center"  valign="middle">
         <a href="" target="_blank">
-          <img width="222px"  src="./docs/img/contribute/profile1.jpg">
+          <img width="222px"  src="./docs/img/contribute/profile.jpg">
         </a>
       </td>
       <td align="center"  valign="middle">
