@@ -1,0 +1,26 @@
+testData:
+  - table:
+      name: t_goods
+      rows:
+        - row:
+            columns:
+              - col:
+                  name: 'id'
+                  value: "1"
+                  isId: true
+              - col:
+                  name: 'name'
+                  value: 'apple'
+              - col:
+                  name: 'sku'
+                  value: 'apple-10001'
+              - col:
+                  name: 'inventory'
+                  value: "100"
+      types:
+        - typeHint:
+            name: 'id'
+            type: BIGINT
+        - typeHint:
+            name: 'inventory'
+            type: INTEGER
