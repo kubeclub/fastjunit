@@ -14,7 +14,7 @@ src
     |-- extend              // junit5 自定义的 ExtendWith
     |-- runner              // ExtendWith 的集合
     |-- utils               
-├── lucky-middleware-mock   // 瑞幸中间件 mock 方案，依赖于 'lucky-test-tool'【需要引入瑞幸内部特定的中间件】
+├── lucky-middleware-mock   // 中间件 mock 方案，依赖于 'lucky-test-tool'
 ├── lucky-test-demo         // 测试用例场景 最佳实践 demo，依赖于 上面 2个模块。
     |-- main            // 下面采用 DDD 模拟业务代码
     |   |-- application
@@ -30,8 +30,7 @@ src
 
 ```
 
-- **使用文档：** https://luckycoffee.github.io/docs/
-- **文档工程：** http://git.luckincoffee.com/opensource/ut-docs
+- **使用文档：** http://fastjunit.kubeclub.cn/
 
 
 采用 JUnit5 做为基础框架的原因
@@ -105,16 +104,6 @@ JUnit5 带来了一个强大的扩展模型。扩展开发人员可以使用这�
       </td>
       <td align="center"  valign="middle">
         <a href="" target="_blank">
-          <img width="222px"  src="./docs/img/contribute/profile1.jpg">
-        </a>
-      </td>
-      <td align="center"  valign="middle">
-        <a href="" target="_blank">
-          <img width="222px"  src="./docs/img/contribute/profile1.jpg">
-        </a>
-      </td>
-      <td align="center"  valign="middle">
-        <a href="https://github.com/mosn" target="_blank">
           <img width="222px"  src="./docs/img/contribute/profile1.jpg">
         </a>
       </td>
